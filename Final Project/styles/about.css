@@ -1,4 +1,4 @@
-body {
+main{
     margin: 1%;
 }
 
@@ -6,7 +6,7 @@ h3 {
     font-size: 130%;
 }
 
-p {
+section > p {
     margin-left: 1%;
 }
 

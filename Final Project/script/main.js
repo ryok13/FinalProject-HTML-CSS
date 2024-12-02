@@ -6,6 +6,7 @@ function toggleMenu() {
 const allHeader = document.querySelector('#header-section');
 const allFooter = document.querySelector('#footer-section');
 
+
 allHeader.innerHTML = `
     <div class="compname">
             <h1>Company name</h1>
@@ -19,9 +20,9 @@ allHeader.innerHTML = `
                     <div class="bar"></div>
                 </div>
                 <ul class="nav-links" id="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/about.html">About Us</a></li>
-                    <li><a href="pages/contact.html">Contact Us</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/about.html">About Us</a></li>
+                    <li><a href="/pages/contact.html">Contact Us</a></li>
                 </ul>
             </nav>
         </div>

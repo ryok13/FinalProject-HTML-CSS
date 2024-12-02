@@ -1,0 +1,42 @@
+form{
+    border-style: solid;
+    padding: 1%;
+    margin: 1% 40%;
+    font-size: 120%;
+    background-color: #6362629c;
+}
+
+.contact-info{
+    border-style: solid;
+    border-radius: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+}
+
+div > label{
+    text-align: left;
+}
+
+div > input{
+    align-self: right;
+}
+
+.title{
+    font-size: 200%;
+}
+
+.title-area{
+    text-align: center;
+}
+
+
+.message {
+    width: 100%; /* Full width for all input fields */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Light border around inputs */
+    border-radius: 5px; /* Slightly round the input fields */
+    box-sizing: border-box; /* Ensures padding and border are included in the width/height */
+}

@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #333;
-    padding-top: 0.01%;
+  background-color: #333;
+  padding-top: 0.01%;
 }
 
 nav {
@@ -16,33 +16,33 @@ nav {
 }
 
 .compname {
-    color: white;
-    padding-left: 1%;
+  color: white;
+  padding-left: 1%;
 }
 
 .compname > p {
-    font-size: 80%;
+  font-size: 80%;
 }
 .display {
-    background-color: #575757;
-    color: #fff;
-    border-color: #333;
-    border-style: solid;
-    border-radius: 3%;
-    margin: 1% 40%;
-    text-align: center;
-    padding: 0.5%;
+  background-color: #575757;
+  color: #fff;
+  border-color: #333;
+  border-style: solid;
+  border-radius: 3%;
+  margin: 1% 40%;
+  text-align: center;
+  padding: 0.5%;
 }
 
 .goto-product {
-    color: #fff;
-    font-size: 110%;
-    background-color: #333;
-    text-decoration: none;
-    border-style: solid;
-    border-radius: 10%;
-    border-color: #333;
-    padding: 2%;
+  color: #fff;
+  font-size: 110%;
+  background-color: #333;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 10%;
+  border-color: #333;
+  padding: 2%;
 }
 
 .menu-icon {
@@ -80,13 +80,13 @@ nav {
 }
 
 .news {
-    margin: 0% 1%
+  margin: 0% 1%
 }
 
 .product-image {
-    border-style: solid;
-    border-radius: 10%;
-    border-color: #333;
+  border-style: solid;
+  border-radius: 10%;
+  border-color: #333;
 }
 
 @media (max-width: 768px) {
@@ -111,13 +111,11 @@ nav {
 }
 
 #copy {
-    position: fixed;
-    bottom: 0;
-    padding-left: 1%;
-    color: #ffffff9c;
-    background-color: #333;
-    padding-bottom: 1%;
-    padding-right: 94.58%;
-    padding-top: 1%;
-    margin-bottom: 0%;
-}
+  padding-left: 1%;
+  color: #ffffff9c;
+  background-color: #333;
+  padding-bottom: 1%;
+  padding-right: 94.58%;
+  padding-top: 1%;
+  margin-bottom: 0%;
+}  

@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/contact.css">
-    <script src="script/main.js" type="text/javascript" defer></script>
+    <script src="/script/main.js" type="text/javascript" defer></script>
 </head>
 <body>
     <header id="header-section"></header>
 
     <main>
-        <h2>Contact Us</h2>
-        <p>Fill out the form underneath to promptly get in contact with us.</p>
+        <div class="title-area">
+            <h2 class="title">Contact Us</h2>
+            <p>Fill out the form underneath to promptly get in contact with us.</p>
+        </div>
         <form>
             <div class="contact-info">
                 <h3>Contact Information</h3>
@@ -20,9 +23,15 @@
                 <input name="full-name"><br><br>
                 <label for="email">Email:</label>
                 <input type="email" name="email"><br><br>
-                <label for="phone-number">Phone Number (optional)</label>
+                <label for="phone-number">Phone Number (optional):</label>
                 <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone-number">
+            </div>
+            <div class="message">
+                <h3>Message</h3>
+                <textarea type="text" rows="16" cols="46"></textarea><br>
             </div>    
+            <br>
+            <input type="submit" name="submit">
         </form>
     </main>
 
