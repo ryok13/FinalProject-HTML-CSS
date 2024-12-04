@@ -9,7 +9,7 @@ const allFooter = document.querySelector('#footer-section');
 
 allHeader.innerHTML = `
     <div class="compname">
-            <h1>Company name</h1>
+            <h1>Georgian Retro Games</h1>
             <p>Best retro game seller in Canada</p>
         </div>
         <div class="container">

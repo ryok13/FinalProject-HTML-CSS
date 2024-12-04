@@ -87,6 +87,7 @@ nav {
   border-style: solid;
   border-radius: 10%;
   border-color: #333;
+  width: 80%;
 }
 
 @media (max-width: 768px) {
