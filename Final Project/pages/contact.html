@@ -20,18 +20,19 @@
             <div class="contact-info">
                 <h3>Contact Information</h3>
                 <label for="full-name" required>Full Name:</label>
-                <input name="full-name" class="input-field"><br><br>
+                <input id="full-name" name="full-name" type="text" required>
+
                 <label for="email">Email:</label>
-                <input type="email" class="input-field" name="email"><br><br>
+                <input id="email" type="email" name="email" required>
+
                 <label for="phone-number">Phone Number (optional):</label>
-                <input type="tel" class="input-field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone-number">
+                <input id="phone-number" type="tel" name="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
             </div>
             <div class="message">
                 <h3>Message</h3>
-                <textarea id="message" class="input-field" type="text" rows="16" cols="46"></textarea><br>
-            </div>    
-            <br>
-            <input type="submit" name="submit">
+                <textarea class="input-field" name="message" rows="6" placeholder="Write your message here..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
         </form>
     </main>
 
