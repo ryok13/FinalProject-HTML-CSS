@@ -10,7 +10,7 @@ const allFooter = document.querySelector('#footer-section');
 allHeader.innerHTML = `
     <div class="compname">
 
-            <div class="logo-img"><img src="/images/Georgian1.png" alt="Georgian Retro Games"></div>
+            <div class="logo-img"><img src="../images/Georgian1.png" alt="Georgian Retro Games"></div>
             <p>Best retro game seller in Canada</p>
         </div>
         <div class="container">
@@ -21,9 +21,9 @@ allHeader.innerHTML = `
                     <div class="bar"></div>
                 </div>
                 <ul class="nav-links" id="nav-links">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/pages/about.html">About Us</a></li>
-                    <li><a href="/pages/contact.html">Contact Us</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/about.html">About Us</a></li>
+                    <li><a href="../pages/contact.html">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,9 +35,9 @@ allFooter.innerHTML = `
     <p class="footer-links">
       <a href="#" class="link-1">Home</a>
       |
-      <a href="/pages/about.html">About</a>
+      <a href="../pages/about.html">About</a>
       |
-      <a href="/pages/contact.html">Contact</a>
+      <a href="../pages/contact.html">Contact</a>
     </p>
     <p class="footer-company-name">© 2024 Georgian Retro Games</p>
   </div>
@@ -59,9 +59,9 @@ allFooter.innerHTML = `
 
   <div class="footer-right">
     <div class="footer-icons">
-      <a href="#"><div class="social"><img src="/images/s1.svg" alt=""></div></a>
-        <a href="#"><div class="social"><img src="/images/s2.svg" alt=""></div></a>
-        <a href="#"><div class="social"><img src="/images/s3.svg" alt=""></div></a>
+      <a href="#"><div class="social"><img src="../images/s1.svg" alt=""></div></a>
+        <a href="#"><div class="social"><img src="../images/s2.svg" alt=""></div></a>
+        <a href="#"><div class="social"><img src="../images/s3.svg" alt=""></div></a>
     </div>
   </div>
 `;
